@@ -5,6 +5,37 @@
 #### Triggers er select koro: GitHub hook trigger for GITScm polling ? --->Pipeline e select koro: Pipeline script from SCM --->SCM e select koro: Git --->Repository URL e repository paste koro--->Branch Specifier (blank for 'any') e main branch daw: */main --->Script Path ? e diba: Jenkinsfile [eta auto thakbe]--->click: Save
 #### project er root directory te Jenkinsfile name er file create koro [nam Jenkinsfile etai hote hobe]--->
 ```bash
+pipeline{
+    agent any
 
+    environment{
+        VERCEL_TOKEN = credentials('vercel_token')
+    }
+
+    stages{
+        stage('Install'){
+            steps{
+                bat 'npm install'
+            }
+        }
+        stage('Build'){
+            steps{
+                bat 'npm run build'
+            }
+        }
+        stage('Test'){
+            steps{
+                echo 'Skipping tests - no test script found'
+            }
+        }
+        stage('Deploy'){
+            steps{
+                bat 'npx vercel --prod --yes --token=%VERCEL_TOKEN%'
+            }
+        }
+    }
+}
 ```
 ---
+
+#### github e push kore dite hobe
