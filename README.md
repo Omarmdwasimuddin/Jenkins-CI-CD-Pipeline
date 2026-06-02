@@ -44,4 +44,5 @@ vcp_2O8qm71UTDVasbrMMWaVrc0VSnMEcHhYJeXVqQZhEYWmBzQytV0RqTfD
 #### project folder theke terminal open koro--->commmand daw: npm i -g vercel --->command daw: vercel login --->command daw: vercel --token [your secret token] --->
 ![](https://imgur.com/KaKzjTJ.png)
 #### Jenkins--->click: Manage Jenkins--->click: Credentials --->click: Add Credentials --->select: Secret text--->click: Next--->Secret: [paste your token]--->ID: [Jenkinsfile er token exm: vercel_token]--->click: Create 
-#### 
+#### [ngrok](https://github.com/Omarmdwasimuddin/Jenkins-Github-Integration#%E0%A6%A7%E0%A6%BE%E0%A6%AA-%E0%A7%AB--ngrok-%E0%A6%A6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-tunnel-%E0%A6%A4%E0%A7%88%E0%A6%B0%E0%A6%BF-%E0%A6%95%E0%A6%B0%E0%A6%BE) e click kore download korar process dekhun
+#### ngrok file double click koro--->
