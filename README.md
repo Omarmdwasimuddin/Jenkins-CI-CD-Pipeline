@@ -39,4 +39,4 @@ pipeline{
 ---
 
 #### github e push kore dite hobe
-#### folder theke terminal open koro--->commmand daw: npm i -g vercel --->
+#### project folder theke terminal open koro--->commmand daw: npm i -g vercel --->
