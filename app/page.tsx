@@ -668,7 +668,7 @@ export default function JenkinsPipelinePage() {
 
         {/* ── Footer ─────────────────────────────────────────── */}
         <footer className="page-footer">
-          <span className="footer-text">Muhammad Wasim Uddin Omar — DevOps Docs</span>
+          <span className="footer-text">Muhammad Wasim Uddin Omar — DevOps Docs file</span>
           <span className="footer-text">Jenkins 2.x · Declarative Pipeline · v1.0</span>
         </footer>
 
